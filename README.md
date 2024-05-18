@@ -51,3 +51,5 @@ Remove a component
 
 Check which rustc binary is currently in use
 `rustup which rustc`
+
+![alt text](image.png)
