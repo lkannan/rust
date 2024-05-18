@@ -1,8 +1,8 @@
-mod util;
 mod math;
+mod util;
 
-use crate::util::{add_five, subtract_ten};
 use crate::math::areas::area_of_square;
+use crate::util::{add_five, subtract_ten};
 
 fn main() {
     // by default variables are immutable
@@ -17,4 +17,3 @@ fn main() {
     let side: u32 = 5;
     println!("Area of square: {}", area_of_square(side));
 }
-

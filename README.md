@@ -74,3 +74,12 @@ To run a project
 
 To build a project for release
 `cargo build --release`
+
+To test a project
+`cargo test`
+
+To test a project and show output
+`cargo test -- --nocapture`
+
+To check the full stack trace
+`$env:RUST_BACKTRACE=1; cargo test`
